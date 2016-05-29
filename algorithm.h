@@ -5,11 +5,14 @@
 #include <qlist.h>
 class Algorithm
 {
+    public:
     QList <std::string> bigNumbers;
-public:
+    bool swap;
+
     Algorithm();
     Algorithm(std::string bigNumber);
     Algorithm(std::string firstBigNumber, std::string secondBigNumber);
+    char addSingleNumber(char firstNumber, char secondNumber);
     std::string addBigNumbers(std::string firstBigNumber, std::string secondBigNumber);
     std::string substractBigNumbers(std::string firstBigNumber, std::string secondBigNumber);
     std::string multiplicationBigNumbers(std::string firstBigNumber, std::string secondBigNumber);
