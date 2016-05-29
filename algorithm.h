@@ -6,17 +6,14 @@
 
 class Algorithm
 {
-<<<<<<< HEAD
     public:
     QList <std::string> bigNumbers;
     bool swap;
 
-=======
 public:
     QList <std::string> bigNumbers;
 
 public:
->>>>>>> refs/remotes/Twin86/master
     Algorithm();
     Algorithm(std::string);
     Algorithm(std::string firstBigNumber, std::string secondBigNumber);
