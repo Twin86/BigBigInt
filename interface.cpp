@@ -6,15 +6,14 @@ Interface::Interface()
 
 }
 
-void Interface::getNumber(){
+std::string Interface::getNumber(){
 
     std::cout<<"Podaj liczbę :";
     std::getline(std::cin,number);
-
+    return number;
 }
 
 
-void Interface::runProg(){
+void Interface::showNumber(std::string result){
 
-    this->getNumber();
 }

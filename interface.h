@@ -9,8 +9,8 @@ class Interface
 public:
     Interface();
 
-    void runProg();
-    void getNumber();
+    std::string getNumber();
+    void showNumber(std::string);
 
     std::string number;
 
