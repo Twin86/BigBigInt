@@ -5,6 +5,7 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     Interface program;
-    program.getNumber();
+    program.showNumber(program.getNumber());
+
     return a.exec();
 }

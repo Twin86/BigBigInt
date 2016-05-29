@@ -6,14 +6,17 @@ Interface::Interface()
 
 }
 
-std::string Interface::getNumber(){
+Algorithm Interface::getNumber(){
 
     std::cout<<"Podaj liczbę :";
-    std::getline(std::cin,number);
-    return number;
+
+    std::string temp;
+    std::getline(std::cin,temp);
+
+    return  Algorithm(temp);
 }
 
 
-void Interface::showNumber(std::string result){
-
+void Interface::showNumber(Algorithm obj){
+    std::cout<<obj.showValue()<<std::endl;
 }

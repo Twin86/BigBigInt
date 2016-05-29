@@ -3,16 +3,15 @@
 
 #include <iostream>
 #include <string.h>
+#include <algorithm.h>
 
 class Interface
 {
 public:
     Interface();
 
-    std::string getNumber();
-    void showNumber(std::string);
-
-    std::string number;
+    Algorithm getNumber();
+    void showNumber(Algorithm);
 
 
 };
