@@ -37,3 +37,12 @@ char Algorithm::addSingleNumber(char a, char b){
         return 0;
     }
 }
+
+Algorithm::Algorithm(std::string bigNumber)
+{
+    bigNumbers.append(bigNumber);
+}
+
+std::string Algorithm::showValue(){
+    return bigNumbers[0];
+}
