@@ -10,10 +10,6 @@ class Algorithm
     QList <std::string> bigNumbers;
     bool swap;
 
-public:
-    QList <std::string> bigNumbers;
-
-public:
     Algorithm();
     Algorithm(std::string);
     Algorithm(std::string firstBigNumber, std::string secondBigNumber);
