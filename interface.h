@@ -10,6 +10,7 @@ class Interface
 public:
     Interface();
 
+    //seba
     Algorithm getNumber();
     void showNumber(Algorithm);
 

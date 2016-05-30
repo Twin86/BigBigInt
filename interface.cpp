@@ -6,6 +6,8 @@ Interface::Interface()
 
 }
 
+
+//seba
 Algorithm Interface::getNumber(){
 
     std::cout<<"Podaj liczbę :";

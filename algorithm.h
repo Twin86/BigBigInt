@@ -13,11 +13,16 @@ class Algorithm
     Algorithm();
     Algorithm(std::string);
     Algorithm(std::string firstBigNumber, std::string secondBigNumber);
-    char addSingleNumber(char firstNumber, char secondNumber);
+    char addSingleNumber(char , char );
+
     std::string addBigNumbers(std::string firstBigNumber, std::string secondBigNumber);
     std::string substractBigNumbers(std::string firstBigNumber, std::string secondBigNumber);
     std::string multiplicationBigNumbers(std::string firstBigNumber, std::string secondBigNumber);
     std::string showValue();
+
+
+    //seba
+     char substractSingleNumber(char , char );
 };
 
 #endif // ALGORITHM_H

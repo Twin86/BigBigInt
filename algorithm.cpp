@@ -38,11 +38,19 @@ char Algorithm::addSingleNumber(char a, char b){
     }
 }
 
+
+
 Algorithm::Algorithm(std::string bigNumber)
 {
     bigNumbers.append(bigNumber);
 }
 
+
+//seba
 std::string Algorithm::showValue(){
     return bigNumbers[0];
+}
+
+char Algorithm::substractSingleNumber(char a, char b){
+
 }
